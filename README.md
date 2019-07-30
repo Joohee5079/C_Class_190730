@@ -9,7 +9,7 @@
 void main()
 {
 	int p, q, c = 0;
-	srand((unsigned)(time(NULL)));
+	srand((unsigned)(time(NULL))); //시간은 계속 변하기 때문에 시간에 "중복되지 않게 하려고" time(NULL)값을 준다.
 	p = rand() % 100 + 1;
 	do
 	{
